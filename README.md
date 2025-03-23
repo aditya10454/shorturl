@@ -5,7 +5,7 @@ The URL Shortener API allows users to shorten long URLs and retrieve the origina
 
 ## Base URL
 
-__ baseURL __
+[https://shorturl-3dz8.onrender.com/](https://shorturl-3dz8.onrender.com/)
 
 ---
 
@@ -19,7 +19,7 @@ Shortens a long URL and returns a short URL.
 { "longUrl": "https://notionpress.com/in/read/in-midnight-s-stillness/paperback" }
 
 // Response
-{ "shortUrl": "http://__baseURL__/token" }
+{ "shortUrl": "https://shorturl-3dz8.onrender.com/token" }
 ```
 
 **2: POST /shorten?alias=customToken**  
@@ -30,7 +30,7 @@ Shortens a long URL and returns a short URL with your custom tokem.
 { "longUrl": "https://notionpress.com/in/read/in-midnight-s-stillness/paperback" }
 
 // Response
-{ "shortUrl": "http://__baseURL__/customToken" }
+{ "shortUrl": "https://shorturl-3dz8.onrender.com/customToken" }
 ```
 
 **3: GET /token**  
